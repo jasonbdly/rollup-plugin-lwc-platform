@@ -1,0 +1,24 @@
+{
+    "name": "rollup-plugin-lwc-platform",
+    "description": "Rollup plugin that resolves on-platform lwc import paths to file-system import paths, to facilitate the integration of platform components with off-platform tools (build systems, automated testing, etc).",
+    "version": "0.0.1",
+    "keywords": [
+        "rollup-plugin",
+        "lightning-web-components",
+        "platform",
+        "rollup",
+        "lwc"
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jasonbdly/rollup-plugin-lwc-platform.git"
+        }
+    ],
+    "homepage": "https://github.com/jasonbdly/rollup-plugin-lwc-platform",
+    "devDependencies": {
+        "@rollup/pluginutils": "^4.1.0",
+        "prettier": "^2.2.1",
+        "rollup": "^2.42.0"
+    }
+}
